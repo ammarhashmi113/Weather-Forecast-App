@@ -1,6 +1,6 @@
-# WeatherApp
+# Weather-Forecast-App
 
-WeatherApp is a user-friendly web application that provides current weather information, a 5-day forecast, and hourly weather updates for any location. Leveraging the OpenWeather API, this app displays detailed weather data including temperature, humidity, and weather conditions with icons.
+Weather-Forecast-App is a user-friendly web application that provides current weather information, a 5-day forecast, and hourly weather updates for any location. Leveraging the OpenWeather API, this app displays detailed weather data including temperature, humidity, and weather conditions with icons.
 
 ## Features
 
@@ -21,11 +21,11 @@ WeatherApp is a user-friendly web application that provides current weather info
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/WeatherApp.git
+    git clone https://github.com/ammarhashmi113/Weather-Forecast-App.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd WeatherApp
+    cd Weather-Forecast-App
     ```
 3. Open `index.html` in your web browser.
 
@@ -37,10 +37,10 @@ WeatherApp is a user-friendly web application that provides current weather info
 
 ## Screenshots
 
-![WeatherApp Screenshot](screenshots/home.JPG)
-![WeatherApp Screenshot](screenshots/forecast.JPG)
-![WeatherApp Screenshot](screenshots/fiveDaysForecast.JPG)
-![WeatherApp Screenshot](screenshots/hourlyForecast.JPG)
+![Weather-Forecast-App Screenshot](screenshots/home.JPG)
+![Weather-Forecast-App Screenshot](screenshots/forecast.JPG)
+![Weather-Forecast-App Screenshot](screenshots/fiveDaysForecast.JPG)
+![Weather-Forecast-App Screenshot](screenshots/hourlyForecast.JPG)
 
 ## API Key
 
