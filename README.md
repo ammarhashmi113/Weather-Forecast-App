@@ -40,7 +40,7 @@ WeatherApp is a user-friendly web application that provides current weather info
 ![WeatherApp Screenshot](screenshots/home.JPG)
 ![WeatherApp Screenshot](screenshots/forecast.JPG)
 ![WeatherApp Screenshot](screenshots/fiveDaysForecast.JPG)
-![WeatherApp Screenshot](screenshots/hourlyForecase.JPG)
+![WeatherApp Screenshot](screenshots/hourlyForecast.JPG)
 
 ## API Key
 
