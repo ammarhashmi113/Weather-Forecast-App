@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+	<h1>Weather App</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" id="locationInput" class="form-control" placeholder="Enter location">
+                </div>
+                <button id="getWeatherBtn" class="btn btn-primary">Get Weather</button>
+                <button id="getCurrentLocationBtn" class="btn btn-secondary ml-2">Get Current Location</button>
+                <div class="form-check mt-2">
+                    <input type="checkbox" id="unitToggle" class="form-check-input">
+                    <label class="form-check-label" for="unitToggle">Show in Fahrenheit</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weather Result -->
+        <div id="weatherResult" class="row mt-4 d-none">
+            <div class="col-md-12 weather-card">
+                <h2 id="locationName"></h2>
+                <img id="weatherIcon" class="weather-icon" src="" alt="Weather Icon">
+                <p id="weatherDescription"></p>
+                <p id="temperature"></p>
+                <p id="humidity"></p>
+            </div>
+        </div>
+
+        <!-- Forecast Result -->
+        <div id="forecastResult" class="row mt-4 d-none">
+            <h2 class="col-md-12">5-Day Forecast</h2>
+            <div id="forecastContainer" class="col-md-12 d-flex flex-wrap"></div>
+        </div>
+
+        <!-- Hourly Forecast Result -->
+        <div id="hourlyForecastResult" class="row mt-4 d-none">
+            <h2 class="col-md-12">Hourly Forecast</h2>
+            <div id="hourlyForecastContainer" class="col-md-12 d-flex flex-wrap"></div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="row mt-4 d-none">
+            <div class="col-md-12">
+                <div class="alert alert-danger" role="alert"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
